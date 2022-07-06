@@ -11,9 +11,9 @@
                   class="text-h5"
                   v-if="albumDetails"
               >{{albumDetails.name}} Songs</v-card-title>
-              <v-card-subtitle v-if="albumArtist" v-text="albumArtist.name"></v-card-subtitle>
-              <v-card-actions class="year-number" v-if="albumDetails">
-                Released year: {{albumDetails.year_released}}
+              <v-card-subtitle v-if="albumDetails" > Released year: {{albumDetails.year_released}}</v-card-subtitle>
+              <v-card-actions class="year-number" v-if="albumArtist" >
+                Sing by: {{albumArtist.name}}
               </v-card-actions>
             </div>
             <v-avatar
@@ -61,6 +61,7 @@ export default {
 @import "@/assets/variables.scss";
 .year-number{
   padding: 0 16px;
+  color:$primary-color;
 }
 .primary-color{
   color:$primary-color;

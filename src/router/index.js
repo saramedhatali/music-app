@@ -22,19 +22,12 @@ const routes = [
     path: '/artists',
     name: 'ArtistView',
      component: ArtistView
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-   //component: () => import(/* webpackChunkName: "ArtistView" */ '../views/ArtistView')
   },
   {
     path: '/album-details/:id',
     name: 'AlbumDetailsView',
      component: AlbumDetailsView
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-   //component: () => import(/* webpackChunkName: "ArtistView" */ '../views/ArtistView')
+    
   },
   {
     path: '/songs/',

@@ -1,5 +1,6 @@
 <template>
   <v-row dense v-if="songsList && songsList.length>0">
+    <v-col cols="12" v-if="!showButton"><h3 class="pl-4">#Tracks</h3></v-col>
     <v-col
         cols="6"
         v-for="(item, index) in songsList"
@@ -15,7 +16,7 @@
             </v-list-item-avatar>
 
             <v-list-item-content>
-              <v-list-item-title v-html="item.name"></v-list-item-title>
+              <v-list-item-title >Track name: {{item.name}}</v-list-item-title>
               <v-list-item-subtitle v-html="'Track# :'+item.id"></v-list-item-subtitle>
               <v-list-item-subtitle>
                 <v-btn
