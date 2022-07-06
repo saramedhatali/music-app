@@ -18,7 +18,7 @@
               class="text-h5"
               v-text="item.name"
           ></v-card-title>
-          <v-card-subtitle v-text="item.year_released"></v-card-subtitle>
+          <v-card-subtitle >Released year: {{item.year_released}} </v-card-subtitle>
           <v-card-actions>
             <v-btn
                 class="ml-2 mt-1 primary-color"

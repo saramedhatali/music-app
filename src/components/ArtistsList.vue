@@ -16,7 +16,7 @@
 
             <v-list-item-content>
               <v-list-item-title v-html="item.name"></v-list-item-title>
-              <v-list-item-subtitle >
+                <v-list-item-subtitle >
                 <v-btn
                     class="mt-1 primary-color"
                     outlined

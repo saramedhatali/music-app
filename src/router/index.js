@@ -27,7 +27,6 @@ const routes = [
     path: '/album-details/:id',
     name: 'AlbumDetailsView',
      component: AlbumDetailsView
-    
   },
   {
     path: '/songs/',
