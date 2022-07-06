@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+  font-weight: 500;
+}
+
+#app {
+  font-family: 'Lato', sans-serif !important;
+  background: #f2f2f2;
+}
+
+.whitebackground {
+  background: #fff;
+}
+
+.bx-1 {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 12px;
+}
+
+.bar-color {
+  background: #180f44 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.mt-399 {
+  margin-top: 8px !important;
+}
+
+.prime-color {
+  float: right;
+}
+
+.v-pagination__item {
+  font-size: 0.8rem !important;
+  height: 33px !important;
+  min-width: 33px !important;
+}
+
