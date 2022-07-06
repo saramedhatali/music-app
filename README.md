@@ -16,6 +16,7 @@ Music Database Application </h2> <br>
 - [Installation](#installation)
 - [Technologies](#technologies)
 - [Features](#features)
+- [Sample UI and Video](#sample-ui-and-video) 
 - [Recommendation/Thoughts](#thoughts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -70,7 +71,11 @@ A few of the things you can do with this music database application "Music Beat"
 
 * Note: all listing pages ( Album list , Songs List, Artists List ) are paginated , also note that pagination is showen obly if we have more than 10 rows in one page
 
-## Sample UI
+## Sample UI and Video
+
+
+https://user-images.githubusercontent.com/23010129/177597450-f1b19360-cc9d-42e0-aa06-fb8c14d3bd83.mp4
+
 
 * Albums List
 
